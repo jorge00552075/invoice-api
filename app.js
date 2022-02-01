@@ -27,6 +27,7 @@ if (process.env.NODE_ENV === "DEVELOPMENT") app.use(morgan("dev"));
 app.use(express.json());
 
 // ROUTES
+app.use("/", (req, res) => res.send("Hello World"));
 app.use("/api/v1/invoices", invoiceRouter);
 
 // 404 PAGE NOT FOUND

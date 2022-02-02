@@ -1,7 +1,10 @@
 # invoice-api
 
-Get all invoices
-https://invoice-api-00552075.herokuapp.com/api/v1/invoices
+## Get all invoices
+GET https://invoice-api-00552075.herokuapp.com/api/v1/invoices
 
-Get invoice by id
-GET https://invoice-api-00552075.herokuapp.com/api/v1/invoices/invoiceid
+## Get a Specific Player
+GET https://invoice-api-00552075.herokuapp.com/api/v1/invoices/:id
+
+### URL Parameters
+ID      The invoice id
